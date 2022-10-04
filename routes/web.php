@@ -20,3 +20,19 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('/');
+
+Route::get('/messages', function () {
+    return view('messages');
+});
+
+Route::get('/tasks', function () {
+    return view('tasks');
+});
+
+Route::get('/eventmanager', function () {
+    return view('eventmanager');
+});
+
+Route::get('/pdicreate', function () {
+    return view('pdicreate');
+});

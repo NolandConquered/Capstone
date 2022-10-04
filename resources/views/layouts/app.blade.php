@@ -32,16 +32,16 @@
                         @guest
                         @else
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">Messages</a>
+                                <a class="nav-link" href="/messages">Messages</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">Sign PDI Form</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">Create PDI Form</a>
+                                <a class="nav-link" href="/pdicreate">Create PDI Form</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">Add Task</a>
+                                <a class="nav-link" href="/tasks">Add Task</a>
                             </li>
                         @endguest
                     </ul>
